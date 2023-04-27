@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.conteiner{
+    width: 1140px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+body{
+    display: flex;
+    /*justify-content:center;*/
+    /*align-items: center;*/
+    min-height: 100vh;
+    background: url('img/les.jpg') no-repeat;
+    background-size: cover ;
+    background-position: center;
+}
+.hero h1{
+    font-size: 50px;
+    color: black;
+    display: flex;
+    justify-content: start;
+    padding-left:20px ;
+
+}
+.hero p{
+    width: 600px;
+    color: #101111;
+    font-size: 20px;
+    padding-left:20px ;
+    margin: 20px 0;
+
+}
+.hero button{
+    width: 110px;
+    height: 50px;
+    background: transparent;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #0e1623;
+    border:2px solid #11111e;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: .5s;
+}
+.hero button:hover{
+    background: #0e1623;
+    color: white;
+}
+.hero-nav{
+    padding: 20px 0 0 40px;
+}
+.hero-nav input{
+    width: 200px;
+    height: 50%;
+    margin: 10px 0;
+    /*background: transparent;*/
+    border: 2px solid #162938;
+    border-radius: 7px;
+    outline: none;
+    /*font-size: 10px;*/
+    color: #162938;
+    /*font-weight: 600;*/
+    /*padding: 0 35px 0 5px;*/
+}
